@@ -15,13 +15,12 @@
         }
         function c(gg) {
             let firstLetter = gg[0].toUpperCase()
-            let restOfWord = gg[1].toLowerCase()
+            let restOfWord = gg.slice(1, gg.length).toLowerCase()
             return firstLetter + restOfWord
         }
         function lastLetter(string) {
             return string[string.length-1]
         }
-        // bruh
     </script>
 </body>
 </html>
